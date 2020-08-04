@@ -12,7 +12,7 @@ if __name__ == "__main__":
 	    print "Usage: " + sys.argv[0] + " <p> <height multiplier of qrd > <width multiplier of qrd> <output_file.csv>"
 	    print "Where p is non even prime number"
 	    sys.exit(1)
-	#sciezka Wejscia
+	#Input Path
 	p = int(sys.argv[1])
 	height=float(sys.argv[2])
 	width=float(sys.argv[3])

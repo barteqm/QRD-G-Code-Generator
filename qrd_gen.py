@@ -3,8 +3,6 @@
 # simple code generating matrix file for main generator 
 # Copyright by Bartek Magdon
 # barteqm@gmail.com
-
-
 import sys,csv,math
 #Start
 if __name__ == "__main__":
@@ -13,7 +11,7 @@ if __name__ == "__main__":
 	    print "Usage: " + sys.argv[0] + " <p> <height multiplier of qrd (mm)> <width of qrd(mm)> <output_file.csv>"
 	    print "Where p is non even prime number"
 	    sys.exit(1)
-	#sciezka Wejscia
+	#Input Path
 	p = int(sys.argv[1])
 	height=float(sys.argv[2])
 	width=float(sys.argv[3])

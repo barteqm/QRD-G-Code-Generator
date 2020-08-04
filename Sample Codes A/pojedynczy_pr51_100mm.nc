@@ -1,0 +1,135 @@
+(Diffuser Auto Generated G Code)
+(Z axis Unused)
+(X0,Y0,Z0= Center, Center, Top)
+(MATERIAL TYPE= STYRO FOAM)
+
+N10 G90 G21
+(GCODE START)
+G00 X0 Y0
+(Plik Macierzy pr_51.csv)
+(Plik wyjsciowy pojedynczy_pr51_100mm.nc)
+(--------------------------------------------------------------)
+(Szerokosc Slupka jednostkowa 10.0mm)
+(Szerokosc Dyfuzora calkowita  500.0mm)
+(Wysokosc Slupka jednostka 2.813mm)
+(Wysokosc Slupka maksymalna 90.016mm)
+(Predkosc podawania materialu 100.0mm/min)
+(Wysokosc Materiału calkowita 100.0)
+(Wysokosc Materiału jednostkowa 100.0)
+(Dlugosc Materialu 500.0)
+(Zadana odleglosc bezpieczna 10.0mm)
+(Wysokosc Podstawy - dna 5.0mm)
+(Ilosc elementow w pionie 1szt.)
+G00 X-10.0
+G00 Y10.626
+G00 X 0
+G01 F100.0
+G01 X0.0
+G01 Y10.626
+G01 X10.0
+G01 Y16.252
+G01 X20.0
+G01 Y27.504
+G01 X30.0
+G01 Y50.008
+G01 X40.0
+G01 Y95.016
+G01 X50.0
+G01 Y41.569
+G01 X60.0
+G01 Y78.138
+G01 X70.0
+G01 Y7.813
+G01 X80.0
+G01 Y10.626
+G01 X90.0
+G01 Y16.252
+G01 X100.0
+G01 Y27.504
+G01 X110.0
+G01 Y50.008
+G01 X120.0
+G01 Y95.016
+G01 X130.0
+G01 Y41.569
+G01 X140.0
+G01 Y78.138
+G01 X150.0
+G01 Y7.813
+G01 X160.0
+G01 Y10.626
+G01 X170.0
+G01 Y16.252
+G01 X180.0
+G01 Y27.504
+G01 X190.0
+G01 Y50.008
+G01 X200.0
+G01 Y95.016
+G01 X210.0
+G01 Y41.569
+G01 X220.0
+G01 Y78.138
+G01 X230.0
+G01 Y7.813
+G01 X240.0
+G01 Y10.626
+G01 X250.0
+G01 Y16.252
+G01 X260.0
+G01 Y27.504
+G01 X270.0
+G01 Y50.008
+G01 X280.0
+G01 Y95.016
+G01 X290.0
+G01 Y41.569
+G01 X300.0
+G01 Y78.138
+G01 X310.0
+G01 Y7.813
+G01 X320.0
+G01 Y10.626
+G01 X330.0
+G01 Y16.252
+G01 X340.0
+G01 Y27.504
+G01 X350.0
+G01 Y50.008
+G01 X360.0
+G01 Y95.016
+G01 X370.0
+G01 Y41.569
+G01 X380.0
+G01 Y78.138
+G01 X390.0
+G01 Y7.813
+G01 X400.0
+G01 Y10.626
+G01 X410.0
+G01 Y16.252
+G01 X420.0
+G01 Y27.504
+G01 X430.0
+G01 Y50.008
+G01 X440.0
+G01 Y95.016
+G01 X450.0
+G01 Y41.569
+G01 X460.0
+G01 Y78.138
+G01 X470.0
+G01 Y7.813
+G01 X480.0
+G01 Y10.626
+G01 X490.0
+G01 Y16.252
+G01 X520.0
+G00 Y110.0
+G00 X-10.0
+G00 Y0
+(Nowa Linia numer:1)
+G92
+M02
+(END OF FILE)
+%

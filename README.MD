@@ -1,5 +1,5 @@
 
-# Simple G-code generator app
+# Simple G-code generator Python script
 
 > Generates G-Code for CNC foam cutter. Allows to make producton files based on CSV templates. CSV templates are generated with additional py scripts.
 
@@ -33,7 +33,7 @@
 ---
 
 ## Features
-- generates nice gcode that can be used in styro foam diffusers production on CNC foam 2d cuttser. Those are effects:
+- generates nice gcode that can be used in styro foam diffusers production on CNC foam 2d cutter. Those are the effects:
 ![Sample Effect](img/DiffusersProduced.jpg)
 
 ## Usage
@@ -58,12 +58,12 @@ Where:
 - <bottom offset> - depth of bottom layer of diffuser that holds everything in place
 - <material_height> - height of a single styrofoam prefab
 - <material_width>  - width of a single styrofoam prefab
-- <divider> - how many prefabs are generated
+- <divider> - how many prefabs are generated (how many styro foam pieces lay on each other)
 - <output_file.nc> - gcode output file
 
 ---
 ## Support
-There's no support, its just single piece of code you can use in your DIY projects. 
+There's no support, its just single piece of code you can use in your DIY projects. If you have any further questions yo can always reach me thru my homepage: 'http://bartekmagdon.com'
 ---
 
 ## License

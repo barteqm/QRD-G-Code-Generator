@@ -13,9 +13,7 @@
 
 - [Installation](#installation)
 - [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
+- [Usage](#usage)
 - [Support](#support)
 - [License](#license)
 
@@ -39,10 +37,10 @@
 ![Sample Effect](img/DiffusersProduced.jpg)
 
 ## Usage
-- pr_gen.py - generates 2D prime root matrices for gcode generator
-- qrd_gen.py - generates 2D quadratic residue matrices for gcode generator
-- header.gcode - part of code that is put in header - enables adding some config parameters
-- footer.gcode - ending part of gcode - no need to change
+- "pr_gen.py" - generates 2D prime root matrices for gcode generator
+- "qrd_gen.py" - generates 2D quadratic residue matrices for gcode generator
+- "header.gcode" - part of code that is put in header - enables adding some config parameters
+- "footer.gcode" - ending part of gcode - no need to change
 - you can also use your own matrices with custom well/column lengts and numbers that gcode_gen.py will acceppt
 - in CSV folder you can find sample matrices in csv format to use with generator
 - generated files can be previewed with for ex. here: 'https://ncwiever.com/'
@@ -50,11 +48,12 @@
 Example preview of gcode file:
 3x2_QRD23_150mm_halfcut.nc
 ![Sample visualisation](img/SampleFileVis.png)
+
 Usage:
-> gcode_gen <matrix_file.csv> <cutting_velocity> <bottom offset> <material_height> <material_width> <divider> <output_file.nc>
+'./gcode_gen.py <matrix_file.csv> <cutting_velocity> <bottom offset> <material_height> <material_width> <divider> <output_file.nc>'
 
 Where:
-- <matrix_file.csv>  - file with shape of diffuser in universal units. generated with qrd_gen.py
+- <matrix_file.csv>  - file with shape of diffuser in universal units. generated with for ex. qrd_gen.py or created manually
 - <cutting_velocity>  - velocity used when cutting material - has to be set experimentally - velocity depends on humidity of foam, temp of cutting wire etc.
 - <bottom offset> - depth of bottom layer of diffuser that holds everything in place
 - <material_height> - height of a single styrofoam prefab
@@ -62,6 +61,7 @@ Where:
 - <divider> - how many prefabs are generated
 - <output_file.nc> - gcode output file
 
+---
 ## Support
 There's no support, its just single piece of code you can use in your DIY projects. 
 ---

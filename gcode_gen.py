@@ -23,7 +23,7 @@ if __name__ == "__main__":
 	# <bottom offset> - depth of bottom layer of diffuser that holds everything in place
 	# <material_height> - height of a single styrofoam prefab
 	# <material_width>  - width of a single styrofoam prefab
-	# <divider> - how many prefabs are generated
+	# <divider> - how many prefabs are generated - practically layers of styrofoam lying on a machine 
 	# <output_file.nc> - gcode output file
 	#
 

@@ -3,7 +3,6 @@
 # simple code generating matrix file for main generator 
 # Copyright by Bartek Magdon
 # barteqm@gmail.com
-
 import sys,csv,math
 #Start
 if __name__ == "__main__":
